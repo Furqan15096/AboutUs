@@ -6,3 +6,36 @@
 .container_main_div{
     width: 100% !important;
 }
+.col2{
+    padding-left: 70px;
+}
+.list_items{
+    line-height: 1;
+}
+.footer_contact_img{
+    height: 35px;
+}
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 992px) {
+   .col4{
+      padding-left: 70px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .col4{
+       padding-left: 12px;
+     }
+     .col2{
+        padding-left: 12px;
+      }
+      .col3{
+          padding-left:12px ;
+      }
+   }
