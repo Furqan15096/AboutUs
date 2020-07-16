@@ -1,88 +1,38 @@
 import React from 'react';
-import { Container } from 'reactstrap';
-import "./compo.css"
+// import "./compo.css"
+import img1 from "./imgs/img1.png";
+import img3 from "./imgs/search.png"
+import img4 from "./imgs/2.png"
 class Example extends React.Component {
     render() {
         return (
             <>
-
-                <Container className="themed-container" fluid={true}>
-
-                    <div className="story_main_container">
-                        <div className="inner_border_div">
-
-
-                            <div className="inner_div">
-                                <div className="pic_div">
-                                    <img className="img_div"
-                                        src="https://cdn.lulusar.com/media/wysiwyg/Screen_Shot_2019-01-15_at_3.18.20_PM.png" alt="" />
-
-                                </div>
-
-
-                                <div className="text_div">
-
-                                    <h1 className="header_text">
-                                        DAILY FUSION WEAR <br /> FOR FASHION <br /> CONSCIOUS WOMEN
-                                </h1>
-                                    <h2 className="text">
-                                        Our products are minimal yet experimental, functional yet versatile and most importantly affordable.
-                                        For fresh aesthetics and timeless elegance Lulusar is your only choice.
-                                </h2>
-
-                                </div>
-
-
-
+                <div classNameName="project_main_div">
+                    <div classNameName="main_div_header">
+                        <div classNameName="first_header_main_div">
+                            <div classNameName="text_div">
+                                <p classNameName="text">
+                                    Free shippingon orders over $200
+                           </p>
                             </div>
-
+                            <div classNameName="number_logo_div">
+                                <div classNameName="logo_div">
+                                    <img classNameName="img_div" src={img1} alt="" />
+                                </div>
+                                <div classNameName="number">
+                                    <p classNameName="number"> 03006674004 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div classNameName="scnd_header_main_div">
+                            <div classNameName="ma_text_div">
+                                MA Traders
+                            </div>
+                            
                         </div>
                     </div>
-                    <div className="b1">
+                </div>
 
-                    </div>
-
-
-
-
-                    <div className="story_main_container">
-                        <div className="inner_border_div">
-
-
-                            <div className="inner_div">
-                                <div className="text_div2">
-
-                                    <h1 className="header_text2">
-                                        DAILY FUSION WEAR <br /> FOR FASHION <br /> CONSCIOUS WOMEN
-</h1>
-                                    <h2 className="text2">
-                                        Our products are minimal yet experimental, functional yet versatile and most importantly affordable.
-                                        For fresh aesthetics and timeless elegance Lulusar is your only choice.
-</h2>
-
-                                </div>
-                                <div className="pic_div">
-                                    <img className="img_div"
-                                        src="https://cdn.lulusar.com/media/wysiwyg/Screen_Shot_2019-01-15_at_3.18.20_PM.png" alt="" />
-
-                                </div>
-
-
-
-
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="b2">
-
-                    </div>
-
-
-
-                </Container>
             </>
         );
     }

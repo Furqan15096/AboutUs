@@ -1,0 +1,30 @@
+.brand_imgs{
+    height: 100%;
+    width: 100%;    
+}
+.brand_img1{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(133, 121, 121);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.brand_img2{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(133, 121, 121);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.brand_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.brand_text{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 4%;
+    margin-bottom: 0px;
+}

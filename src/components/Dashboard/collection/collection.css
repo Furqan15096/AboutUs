@@ -1,0 +1,68 @@
+.collection_imgs_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.inner_collec_img_div{
+    height: 350px;
+    width: 250px;
+    border: 1px solid rgb(219, 217, 217);
+    
+    margin-left: .2%;
+}
+.collec_img_div{
+    height: 50%;
+    width: 70%;
+    margin: auto;
+}
+.collec_img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.collec_text_div{
+  padding-left: 7%;
+  line-height: .8;
+  padding-top: 15%;
+}
+.collec_exp{
+    font-weight:500;
+    font-size: 16px;
+}
+.collec_name{
+    font-weight: 400;
+    font-size: 17px;
+}
+.collec_price{
+    font-weight: 400;
+    font-size: 23px;
+    color: orange;
+}
+.collec_stat{
+    display: flex;
+    
+}
+.collec_circle_div{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-top: 1%;
+}
+.collec_circle_text_div{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 3%;
+    color: green;
+}
+.collection_text{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 4%;
+    padding-bottom: 1.5%;
+    margin-bottom: 0px;
+}
