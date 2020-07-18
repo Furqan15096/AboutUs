@@ -5,6 +5,7 @@ import fb from "./imgs/facebook.png"
 import insta from "./imgs/insta.png"
 import twitter from "./imgs/twitter.png"
 import linkdin from "./imgs/linkdin.png"
+import { Link } from 'react-router-dom'
 
 class Footer extends React.Component {
     render() {
@@ -82,12 +83,15 @@ class Footer extends React.Component {
                                     <img className="footer_contact_img" src={insta} alt="" />
                                     <img className="footer_contact_img" src={twitter} alt="" />
                                     <img className="footer_contact_img" src={linkdin} alt="" />
+                                    {/* <Link to="/FeaturedProductsDetail">
+                                        <button>hello</button>
+                                    </Link> */}
                                 </div>
                             </Col>
                         </div>
                     </Row>
                 </Container>
-                </div>
+            </div>
         </>
     }
 }
